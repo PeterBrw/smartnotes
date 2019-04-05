@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="416" height="497" viewBox="0 0 416 497">
+    <defs>
+        <rect id="a" width="344" height="443" rx="12"/>
+        <filter id="b" width="113.7%" height="110.6%" x="-6.8%" y="-4.9%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0948699738 0"/>
+        </filter>
+        <rect id="d" width="344" height="443" rx="12"/>
+        <filter id="e" width="113.7%" height="110.6%" x="-6.8%" y="-4.9%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0948699738 0"/>
+        </filter>
+        <rect id="g" width="344" height="443" rx="12"/>
+        <filter id="h" width="113.7%" height="110.6%" x="-6.8%" y="-4.9%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0948699738 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g opacity=".7" transform="translate(36 27)">
+            <mask id="c" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+            <use fill="#4C3AC3" xlink:href="#a"/>
+            <rect width="208" height="125" x="43" y="48" fill="#CFC7FF" mask="url(#c)" rx="10"/>
+            <text fill="#FFF" font-family="Roboto-Bold, Roboto" font-size="36" font-weight="bold">
+                <tspan x="44" y="246">Notes title here</tspan>
+            </text>
+            <text fill="#A398ED" font-family="Roboto-Regular, Roboto" font-size="18">
+                <tspan x="44" y="298">Lorem ipsum dolor sit amet, </tspan> <tspan x="44" y="323">consectetur adipiscing elit, </tspan> <tspan x="44" y="348">do eiusmod tempor incididunt </tspan> <tspan x="44" y="373">ut labore et dolore magna...</tspan>
+            </text>
+            <path fill="#4C3AC3" fill-rule="nonzero" d="M210.376 59.751H85.464A2.046 2.046 0 0 0 83.42 61.8v97.902c0 1.132.915 2.049 2.044 2.049h124.912c1.13 0 2.044-.917 2.044-2.049V61.8a2.046 2.046 0 0 0-2.044-2.049zm-10.956 86l-27.982-29.034a.832.832 0 0 0-1.149-.046l-19.408 17.115-24.806-30.603a.83.83 0 0 0-1.313.027L95.42 142.657V72.751h104v73z"/>
+            <path fill="#4C3AC3" fill-rule="nonzero" d="M171 106c5.52 0 10-4.477 10-10 0-5.521-4.48-10-10-10-5.524 0-10 4.479-10 10 0 5.523 4.476 10 10 10z"/>
+        </g>
+        <g opacity=".6" transform="rotate(-10 344.306 29.26)">
+            <mask id="f" fill="#fff">
+                <use xlink:href="#d"/>
+            </mask>
+            <use fill="#000" filter="url(#e)" xlink:href="#d"/>
+            <use fill="#4C3AC3" xlink:href="#d"/>
+            <rect width="208" height="125" x="43" y="48" fill="#CFC7FF" mask="url(#f)" rx="10"/>
+            <text fill="#FFF" font-family="Roboto-Bold, Roboto" font-size="36" font-weight="bold">
+                <tspan x="44" y="246">Notes title here</tspan>
+            </text>
+            <text fill="#A398ED" font-family="Roboto-Regular, Roboto" font-size="18">
+                <tspan x="44" y="298">Lorem ipsum dolor sit amet, </tspan> <tspan x="44" y="323">consectetur adipiscing elit, </tspan> <tspan x="44" y="348">do eiusmod tempor incididunt </tspan> <tspan x="44" y="373">ut labore et dolore magna...</tspan>
+            </text>
+            <path fill="#4C3AC3" fill-rule="nonzero" d="M210.376 59.751H85.464A2.046 2.046 0 0 0 83.42 61.8v97.902c0 1.132.915 2.049 2.044 2.049h124.912c1.13 0 2.044-.917 2.044-2.049V61.8a2.046 2.046 0 0 0-2.044-2.049zm-10.956 86l-27.982-29.034a.832.832 0 0 0-1.149-.046l-19.408 17.115-24.806-30.603a.83.83 0 0 0-1.313.027L95.42 142.657V72.751h104v73z"/>
+            <path fill="#4C3AC3" fill-rule="nonzero" d="M171 106c5.52 0 10-4.477 10-10 0-5.521-4.48-10-10-10-5.524 0-10 4.479-10 10 0 5.523 4.476 10 10 10z"/>
+        </g>
+        <g opacity=".9" transform="rotate(10 35.694 440.74)">
+            <mask id="i" fill="#fff">
+                <use xlink:href="#g"/>
+            </mask>
+            <use fill="#000" filter="url(#h)" xlink:href="#g"/>
+            <use fill="#4C3AC3" xlink:href="#g"/>
+            <rect width="208" height="125" x="43" y="48" fill="#CFC7FF" mask="url(#i)" rx="10"/>
+            <text fill="#FFF" font-family="Roboto-Bold, Roboto" font-size="36" font-weight="bold">
+                <tspan x="44" y="246">Notes title here</tspan>
+            </text>
+            <text fill="#A398ED" font-family="Roboto-Regular, Roboto" font-size="18">
+                <tspan x="44" y="298">Lorem ipsum dolor sit amet, </tspan> <tspan x="44" y="323">consectetur adipiscing elit, </tspan> <tspan x="44" y="348">do eiusmod tempor incididunt </tspan> <tspan x="44" y="373">ut labore et dolore magna...</tspan>
+            </text>
+            <path fill="#4C3AC3" fill-rule="nonzero" d="M210.376 59.751H85.464A2.046 2.046 0 0 0 83.42 61.8v97.902c0 1.132.915 2.049 2.044 2.049h124.912c1.13 0 2.044-.917 2.044-2.049V61.8a2.046 2.046 0 0 0-2.044-2.049zm-10.956 86l-27.982-29.034a.832.832 0 0 0-1.149-.046l-19.408 17.115-24.806-30.603a.83.83 0 0 0-1.313.027L95.42 142.657V72.751h104v73z"/>
+            <path fill="#4C3AC3" fill-rule="nonzero" d="M171 106c5.52 0 10-4.477 10-10 0-5.521-4.48-10-10-10-5.524 0-10 4.479-10 10 0 5.523 4.476 10 10 10z"/>
+        </g>
+    </g>
+</svg>

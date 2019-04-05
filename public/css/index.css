@@ -79,6 +79,7 @@ a {
             }
         .manage-notes {
             display: flex;
+            margin-top: 63px;
         }
             .smart-notes {
                 max-width: 50%;
@@ -86,6 +87,7 @@ a {
                 .smart-notes h3 {
                     color: #fff;
                     font-size: 30px;
+                    margin-left: 33px;
                 }
                 .smart-notes ul {
                     color: #fff;
@@ -95,5 +97,10 @@ a {
                     line-height: 26px;
                 }
             .mobile-friendly {
-                
+                position: relative;
             }
+                .mobile-friendly img {
+                    margin-left: 114px;
+                    position: absolute;
+                    top: -11px;  
+                }

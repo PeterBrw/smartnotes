@@ -35,6 +35,10 @@ a {
 #header {
     background-color: #624fe0;
     padding: 36px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
     #header .content {
         display: flex;
@@ -102,5 +106,5 @@ a {
                 .mobile-friendly img {
                     margin-left: 116px;
                     position: absolute;
-                    top: -10px;  
+                    top: -10px; 
                 }

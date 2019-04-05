@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #1d1d1d;
+    letter-spacing: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #624fe0;
+    font-size: 16px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1150px;
+    padding: 0 20px;
+}
+
+#header {
+    background-color: #624fe0;
+    padding: 36px 0;
+}
+    #header .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        width: 161px;
+    }
+        .nav a {
+            color: #fff;
+            font-size: 18px;
+        }
+        .nav a:hover {
+            opacity: 0.6;
+        }
+
+    .logo a {
+        display: inline-block;
+    }
+
+#main {
+    
+}
+    #main .content {
+        padding-top: 24px;    
+    }
+    
+    .section-jumbotron {
+        background-color: #624fe0;
+    }
+        h1 {
+            font-weight: 600;
+            font-size: 48px;
+            color: #fff;
+            text-align: center;
+        }
+            h1 span {
+                color: #c8bcff;
+            }
+        .manage-notes {
+            display: flex;
+        }
+            .smart-notes {
+                max-width: 50%;
+            }
+                .smart-notes h3 {
+                    color: #fff;
+                    font-size: 30px;
+                }
+                .smart-notes ul {
+                    color: #fff;
+                    list-style-type: square;
+                }
+                .smart-notes li {
+                    line-height: 26px;
+                }
+            .mobile-friendly {
+                
+            }

@@ -63,7 +63,7 @@ a {
     }
 
 #main {
-    
+    margin-top: 112px;
 }
     #main .content {
         padding-top: 24px;    
@@ -71,6 +71,7 @@ a {
     
     .section-jumbotron {
         background-color: #624fe0;
+        padding-bottom: 169px;
     }
         h1 {
             font-weight: 600;
@@ -99,6 +100,24 @@ a {
                 }
                 .smart-notes li {
                     line-height: 26px;
+                    margin-left: -7px;
+                    font-size: 18px;
+                }
+                .smart-notes li:nth-child(2) {
+                    margin-bottom: 6px;
+                }
+                .smart-notes li:nth-child(3) {
+                    margin-bottom: 6px;
+                }
+                .smart-notes a {
+                    background-color: #fff;
+                    font-size: 22px;
+                    font-weight: 500;
+                    padding: 16px 70px;
+                    border-radius: 3%;
+                    margin-left: 33px;
+                    position: relative;
+                    top: 70px;
                 }
             .mobile-friendly {
                 position: relative;

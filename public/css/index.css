@@ -295,10 +295,10 @@ hr {
             }
 }
 
-@media (max-width: 575.98px) {
-    #header {
-        z-index: 4;
-    }
+@media (max-width: 769px) {
+     #header {
+            z-index: 4;
+        } 
         .section-jumbotron {
             height: 1046px;
         }
@@ -311,14 +311,8 @@ hr {
                 }
                 .mobile-friendly img {
                     top: 150px;
-                    left: 0px; 
+                    left: 69px; 
                 }
-            .ideas .notes-ideas img {
-                position: absolute;
-                bottom: 0px;
-                left: 2px;;
-                top: 0px;
-            }
             .customers-icons {
                 display: flex; 
                 justify-content: space-between;
@@ -326,10 +320,99 @@ hr {
                 width: 100%;
                 margin-top: 68px;
             }
+                .customers-icons img {
+                    margin: 0 auto 25px auto;
+                }  
+            .ideas .capture-ideas {
+                max-width: 100%;
+                text-align: center;
+            } 
+                .ideas .notes-ideas img {
+                    position: absolute;
+                    bottom: 0;
+                    left: 147px;
+                    top: 0;
+                }
+
+    hr {
+        margin-top: 574px;
+    }
+    .footer-flex {
+        flex-direction: column;
+    }
+            .footer-flex .footer-copyright p {
+                text-align: center;    
+            }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
     #header {
-        z-index: 4;
+            z-index: 4;
+        } 
+        #header .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav {
+            margin-top: 20px;
+        }
+        
+        .smart-notes a {
+            background-color: #fff;
+            font-size: 22px;
+            font-weight: 500;
+            padding: 10px 30px;
+            border-radius: 3%;
+            margin-left: 50px;
+            position: relative;
+            top: 70px;
+        }
+        .section-jumbotron {
+            height: 1206px;
+        }
+            .section-jumbotron h1 {
+                margin-top: 20px;
+            }
+            .manage-notes {
+                flex-direction: column;
+            }
+                .smart-notes {
+                    max-width: 100%;
+
+                }
+                .mobile-friendly img {
+                    top: 150px;
+                    left: -136px; 
+                }
+            .customers-icons {
+                display: flex; 
+                justify-content: space-between;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 68px;
+            }
+                .customers-icons img {
+                    margin: 0 auto 25px auto;
+                }  
+            .ideas .capture-ideas {
+                max-width: 100%;
+                text-align: center;
+            } 
+                .ideas .notes-ideas img {
+                    position: absolute;
+                    bottom: 0;
+                    left: -78px;
+                    top: 0;
+                }
+
+    hr {
+        margin-top: 574px;
     }
+    .footer-flex {
+        flex-direction: column;
+    }
+            .footer-flex .footer-copyright p {
+                text-align: center;    
+            }
 }

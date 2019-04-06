@@ -37,7 +37,7 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 4;
 }
     #header .content {
         display: flex;
@@ -245,79 +245,91 @@ hr {
         .footer-flex .footer-copyright p span {
             color: #9d9d9d;
         }
-@media (max-width: 1200px) { 
-    .section-jumbotron {
-        height: 1046px;
-    }
-        .manage-notes {
-            flex-direction: column;
-        }
-            .smart-notes {
-                max-width: 100%;
-
-            }
-            .mobile-friendly img {
-                top: 150px;
-                left: 260px; 
-            }
-        .customers-icons {
-            display: flex; 
-            justify-content: space-between;
-            flex-direction: column;
-            width: 100%;
-            margin-top: 68px;
-        }
-            .customers-icons img {
-                margin: 0 auto 25px auto;
-            }  
-        .ideas .capture-ideas {
-            max-width: 100%;
-            text-align: center;
+@media (max-width: 1200px) {
+        #header {
+            z-index: 4;
         } 
-            .ideas .notes-ideas img {
-                position: absolute;
-                bottom: 0px;
-                left: 282px;;
-                top: 0px;
-            }
-
-   hr {
-       margin-top: 574px;
-   }
-   .footer-flex {
-       flex-direction: column;
-   }
-        .footer-flex .footer-copyright p {
-            text-align: center;    
+        .section-jumbotron {
+            height: 1046px;
         }
+            .manage-notes {
+                flex-direction: column;
+            }
+                .smart-notes {
+                    max-width: 100%;
+
+                }
+                .mobile-friendly img {
+                    top: 150px;
+                    left: 260px; 
+                }
+            .customers-icons {
+                display: flex; 
+                justify-content: space-between;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 68px;
+            }
+                .customers-icons img {
+                    margin: 0 auto 25px auto;
+                }  
+            .ideas .capture-ideas {
+                max-width: 100%;
+                text-align: center;
+            } 
+                .ideas .notes-ideas img {
+                    position: absolute;
+                    bottom: 0px;
+                    left: 282px;;
+                    top: 0px;
+                }
+
+    hr {
+        margin-top: 574px;
+    }
+    .footer-flex {
+        flex-direction: column;
+    }
+            .footer-flex .footer-copyright p {
+                text-align: center;    
+            }
 }
 
 @media (max-width: 575.98px) {
-    .section-jumbotron {
-        height: 1046px;
+    #header {
+        z-index: 4;
     }
-        .manage-notes {
-            flex-direction: column;
+        .section-jumbotron {
+            height: 1046px;
         }
-            .smart-notes {
-                max-width: 100%;
+            .manage-notes {
+                flex-direction: column;
+            }
+                .smart-notes {
+                    max-width: 100%;
 
+                }
+                .mobile-friendly img {
+                    top: 150px;
+                    left: 0px; 
+                }
+            .ideas .notes-ideas img {
+                position: absolute;
+                bottom: 0px;
+                left: 2px;;
+                top: 0px;
             }
-            .mobile-friendly img {
-                top: 150px;
-                left: 0px; 
+            .customers-icons {
+                display: flex; 
+                justify-content: space-between;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 68px;
             }
-        .ideas .notes-ideas img {
-            position: absolute;
-            bottom: 0px;
-            left: 2px;;
-            top: 0px;
-        }
-        .customers-icons {
-            display: flex; 
-            justify-content: space-between;
-            flex-direction: column;
-            width: 100%;
-            margin-top: 68px;
-        }
+}
+
+@media (max-width: 320px) {
+    #header {
+        z-index: 4;
+    }
 }

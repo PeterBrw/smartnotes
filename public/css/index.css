@@ -27,7 +27,6 @@ a {
 
 .content {
     margin: 0 auto;
-    width: 100%;
     max-width: 1150px;
     padding: 0 20px;
 }
@@ -64,6 +63,7 @@ a {
 
 #main {
     margin-top: 112px;
+    width: 100%
 }
     #main .content {
         padding-top: 24px;    
@@ -85,6 +85,7 @@ a {
         .manage-notes {
             display: flex;
             margin-top: 63px;
+            width: 100%;
         }
             .smart-notes {
                 max-width: 50%;
@@ -96,13 +97,22 @@ a {
                 }
                 .smart-notes ul {
                     color: #fff;
-                    list-style-type: square;
+                    list-style-type: none;
                 }
-                .smart-notes li {
-                    line-height: 26px;
-                    margin-left: -7px;
-                    font-size: 18px;
-                }
+                    .smart-notes li {
+                        line-height: 26px;
+                        margin-left: -7px;
+                        font-size: 18px;
+                    }
+                        .smart-notes li span {
+                            width: 15px;
+                            height: 15px;
+                            background-color: white;
+                            display: inline-block;
+                            margin-left: -31px;
+                            border-radius: 20%;
+                            margin-right: 13px;
+                        }
                 .smart-notes li:nth-child(2) {
                     margin-bottom: 6px;
                 }
@@ -229,7 +239,6 @@ hr {
         .footer-flex .footer-copyright p {
             line-height: 23px;
             font-size: 16px;
-            font-weight: 400;
             margin-right: 6px;
             margin-top: 24px;
         }

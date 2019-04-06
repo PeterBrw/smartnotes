@@ -354,11 +354,11 @@ hr {
             flex-direction: column;
             align-items: center;
         }
-        .nav {
+            .nav {
             margin-top: 20px;
         }
         
-        .smart-notes a {
+            .smart-notes a {
             background-color: #fff;
             font-size: 22px;
             font-weight: 500;
@@ -384,7 +384,11 @@ hr {
                 .mobile-friendly img {
                     top: 150px;
                     left: -136px; 
+                    transform: scale(0.7)
                 }
+            .section-customers h2 {
+                margin-top: 245px;
+            }    
             .customers-icons {
                 display: flex; 
                 justify-content: space-between;

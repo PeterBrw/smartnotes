@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+:root {
+    --primary-color: #fff;
+    --color-purple: #624fe0;
+    --color-blue: #4357da;
+    --color-white: #fff;
+    --color-black: #1d1d1d;
+    --color-grey: #4b4b4b;
+    --color-light-grey: #dfe0e9;
+    --color-dark-grey: #76788b;
+    --color-brown-grey: #9d9d9d;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #1d1d1d;
+    letter-spacing: 0;
+    background-color: white;
+    background-image: linear-gradient(170deg, var(--color-purple) 50%, transparent 50%);
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 443px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 50px 0 80px 0;
+}
+
+.form {
+    background: var(--primary-color);
+    padding: 22px 20px 30px 20px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form .form-title {
+    font-size: 28px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; 
+    margin: 9px 0;
+}
+
+.input-group label {
+    margin-bottom: 6px;
+}
+
+.input-group input {
+    height: 40px;
+    border: 1px solid var(--color-brown-grey);
+    border-radius: 3px;
+    padding-left: 14px;
+    font-size: 16px;
+}
+
+.input-group input::placeholder {
+    color: var(--color-brown-grey);
+    
+}
+
+.remember-me {
+    margin: 9px 0;
+}
+
+.button {
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid var(--color-button-border, #000); /* define a var which is not defined yet */
+    background: var(--color-button-background, #fff);
+    color: var(--color-button-text, #000);
+    margin: 24px 0;     
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-link {
+    text-align: center;
+}
+
+.footer-link a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--color-purple);
+}
+
+.button.purple {
+    --color-button-border: transparent;
+    --color-button-background: var(--color-purple);
+    --color-button-text: var(--color-white);
+}
+
+.button.black {
+    --color-button-border: var(--color-black);
+    --color-button-background: var(--color-white);
+    --color-button-text: var(--color-black);
+}
+

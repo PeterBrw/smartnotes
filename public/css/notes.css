@@ -1,0 +1,125 @@
+@import url('./shared.css');
+
+#header {
+    position: fixed;
+    width: 100%;
+}
+
+.nav .logout {
+    border-radius: var(--radius);
+    background-color: var(--color-purple-hover);
+    padding: 10px 20px;
+}
+
+.nav .logout i {
+    margin-right: 10px;
+}
+
+#search {
+    border-radius: var(--radius);
+    border: 1px solid var(--color-border);
+    font-size: 18px;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    padding: 10px 20px;
+    flex: 1 1 auto;
+    margin: 0 30px 0 50px;
+}
+
+#search::placeholder {
+    color: var(--color-white);
+}
+
+.styled-select {
+    border-radius: var(--radius);
+    border: 1px solid var(--color-border);
+    margin-right: 15px;
+    padding: 10px 20px;
+}
+
+.styled-select select {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0;
+    color: var(--color-white);
+}
+
+.styled-select option {
+    background-color: var(--color-purple);
+}
+
+.fixed-width {
+  width: 100%;
+  max-width: 790px; 
+  margin: 0 auto; 
+  padding-top: 170px;
+}
+
+#new-note {
+    width: 100%;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.1);
+    /* margin-top: 120px; */
+    padding: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#new-note input,
+#new-note textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+#title-input {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#content-input {
+    margin-top: 20px;
+    resize: vertical;
+    font-size: inherit;
+}
+
+#new-note #image {
+    display: none;
+}
+
+.toolbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.toolbox i {
+    font-size: 30px;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.toolbox i:hover {
+    opacity: 1;
+}
+
+.toolbox i + i,
+.toolbox i + label { /* adiajcent selector google it */
+    margin-left: 25px;
+}
+
+.toolbox #submit {
+    border: 1px solid var(--color-black);
+    border-radius: var(--radius);
+    padding: 10px 20px;
+    background-color: var(--color-white);
+    font-size: inherit;
+    cursor: pointer;
+}
+

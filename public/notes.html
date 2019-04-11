@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/notes.css">
+        <title>Notes App</title>
+    </head>
+    <body>
+        <div id="header">
+            <div class="content">
+                <div class="logo">
+                    <a href="/" title="Welcome">
+                        <img src="images/logo.svg"/>
+                    </a>
+                </div>
+                <input type="text" name="search" placeholder="Search.." id="search">
+                <div class="styled-select">
+                    <select name="order" id="">
+                        <option value="modified-desc">Modified DESC</option>
+                        <option value="modified-asc">Modified ASC</option>
+                        <option value="created-desc">Created DESC</option>
+                        <option value="created-asc">Created ASC</option>
+                    </select>
+                </div>
+                <div class="nav">
+                    <a href="/logout.html" title="Logout" class="logout"><i class="fas fa-sign-out-alt"></i>Logout</a>
+                </div>
+            </div>
+        </div> 
+        <main class="fixed-width">
+            <form action="" id="new-note">
+                <input type="text" name="title" id="title-input" placeholder="Title">
+                <textarea name="content" id="content-input" placeholder="Take a note..."></textarea>
+                <input type="file" name="image" id="image">
+                <div class="toolbox">
+                    <div class="left">
+                        <i class="fas fa-palette"></i>
+                        <label for="image">
+                            <i class="fas fa-image"></i>
+                        </label>
+                        
+                    </div>
+                    <div class="right">
+                        <input type="submit" id="submit" value="Save note">
+                    </div>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

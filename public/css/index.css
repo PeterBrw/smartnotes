@@ -48,6 +48,7 @@ a {
         display: flex;
         justify-content: space-between;
         width: 161px;
+        /* flex: 1 1 auto; */
     }
         .nav a {
             color: #fff;

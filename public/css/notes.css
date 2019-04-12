@@ -3,6 +3,7 @@
 #header {
     position: fixed;
     width: 100%;
+    padding: 31px 0;
 }
 
 .nav .logout {
@@ -96,7 +97,7 @@
 .toolbox {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 14px;
 }
 
 .toolbox i {
@@ -117,9 +118,32 @@
 .toolbox #submit {
     border: 1px solid var(--color-black);
     border-radius: var(--radius);
-    padding: 10px 20px;
+    padding: 10px 45px;
     background-color: var(--color-white);
     font-size: inherit;
     cursor: pointer;
 }
 
+main h3 {
+    color: var(--color-purple);
+    margin-top: 59px;
+}
+
+.pinned {
+    width: 100%;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.1);
+    /* margin-top: 120px; */
+    padding: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid var(--color-brown-grey);
+    margin-top: 30px;
+}
+
+.pinned .aws {
+    width: 370px;
+    height: 184px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

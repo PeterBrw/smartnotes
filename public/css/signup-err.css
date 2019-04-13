@@ -37,118 +37,119 @@ h1, h2, h3 {
     max-width: 443px;
 }
 
-.form-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    padding: 50px 0 80px 0;
-}
-
-.form {
-    background: var(--primary-color);
-    padding: 22px 20px 30px 20px;
-    border-radius: 3px;
-    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.1);
-}
-
-.form .form-title {
-    font-size: 28px;
-}
-
-.input-group {
-    display: flex;
-    flex-direction: column; 
-    margin: 9px 0;
-}
-
-.input-group label {
-    margin-bottom: 6px;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.input-group input {
-    height: 40px;
-    border: 1px solid var(--color-brown-grey);
-    border-radius: 3px;
-    padding-left: 14px;
-    font-size: 16px;
-}
-
-.input-group input::placeholder {
-    color: var(--color-brown-grey);
-    
-}
-
-.remember-me {
-    margin: 9px 0;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-    .warning {
-        text-align: center;
-        font-size: 16px;
-        color: #d0021b;
-        padding: 0;
-        margin: 12px 0;;
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        padding: 50px 0 80px 0;
     }
 
-.button {
-    height: 40px;
-    width: 100%;
-    border-radius: 3px;
-    font-size: 16px;
-    cursor: pointer;
-    border: 1px solid var(--color-button-border, #000); /* define a var which is not defined yet */
-    background: var(--color-button-background, #fff);
-    color: var(--color-button-text, #000);
-    margin: 0 0 0 0;    
-}
+        .form {
+            background: var(--primary-color);
+            padding: 22px 20px 30px 20px;
+            border-radius: 3px;
+            box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.1);
+        }
 
-.footer {
-    text-align: center;  
-}
+            .form .form-title {
+                font-size: 28px;
+            }
 
-.footer p {
-    font-size: 16px;
-}
+                .input-group {
+                    display: flex;
+                    flex-direction: column; 
+                    margin: 9px 0;
+                }
 
-.footer span {
-    color: var(--color-brown-grey);
-}
+                    .input-group label {
+                        margin-bottom: 6px;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
 
-.footer-link {
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-}
+                    .input-group input {
+                        height: 40px;
+                        border: 1px solid var(--color-brown-grey);
+                        border-radius: 3px;
+                        padding-left: 14px;
+                        font-size: 16px;
+                    }
 
-.footer-link a {
-    font-size: 16px;
-    text-decoration: none;
-    color: var(--color-purple);
-}
+                    .input-group input::placeholder {
+                        color: var(--color-brown-grey);
+                        
+                    }
 
-.button.purple {
-    --color-button-border: transparent;
-    --color-button-background: var(--color-purple);
-    --color-button-text: var(--color-white);
-    font-weight: 500; 
-}
+                    .remember-me {
+                        margin: 9px 0;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
 
-.button.black {
-    --color-button-border: var(--color-black);
-    --color-button-background: var(--color-white);
-    --color-button-text: var(--color-black);
-    font-weight: 500;
-}
+                    .warning {
+                        text-align: center;
+                        font-size: 16px;
+                        color: #d0021b;
+                        padding: 0;
+                        margin: 12px 0;;
+                    }
 
-.footer a {
-    text-decoration: none;
-    line-height: 22px;
-}
+                    .button {
+                        height: 40px;
+                        width: 100%;
+                        border-radius: 3px;
+                        font-size: 16px;
+                        cursor: pointer;
+                        border: 1px solid var(--color-button-border, #000); /* define a var which is not defined yet */
+                        background: var(--color-button-background, #fff);
+                        color: var(--color-button-text, #000);
+                        margin: 0 0 0 0;    
+                    }
+
+                    .button.purple {
+                        --color-button-border: transparent;
+                        --color-button-background: var(--color-purple);
+                        --color-button-text: var(--color-white);
+                        font-weight: 500; 
+                    }
+                    
+                    .button.black {
+                        --color-button-border: var(--color-black);
+                        --color-button-background: var(--color-white);
+                        --color-button-text: var(--color-black);
+                        font-weight: 500;
+                    }
+
+            .footer-link {
+                text-align: center;
+                font-weight: 500;
+                font-size: 16px;
+            }
+            
+                .footer-link a {
+                    font-size: 16px;
+                    text-decoration: none;
+                    color: var(--color-purple);
+                }
+                    
+                    
+        .footer {
+            text-align: center;  
+        }
+
+            .footer p {
+                font-size: 16px;
+            }
+
+                .footer span {
+                    color: var(--color-brown-grey);
+                }
+
+                .footer a {
+                    text-decoration: none;
+                    line-height: 22px;
+                }
 
 @media (max-width: 1200px) {
     

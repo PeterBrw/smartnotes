@@ -140,3 +140,21 @@ h1, h2, h3 {
     text-decoration: none;
     line-height: 22px;
 }
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 992px) {
+    .logo img {
+        margin: 0 auto;
+        display: block; 
+    }
+} 
+
+@media (max-width: 768px) {
+    .logo img {
+        margin: 0 auto;
+        display: block; 
+    }
+}

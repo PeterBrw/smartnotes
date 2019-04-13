@@ -124,9 +124,10 @@
     cursor: pointer;
 }
 
-main h3 {
+main h2 {
     color: var(--color-purple);
     margin-top: 59px;
+    font-size: 22px;
 }
 
 .pinned {
@@ -146,4 +147,93 @@ main h3 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.pinned h2 {
+    margin-top: 28px;
+    font-size: 22px;
+    color: var(--color-black);
+}
+
+.pinned p {
+    line-height: 22px;  
+    font-size: 16px;
+}
+
+.pinned .pinned-first-paragraph {
+    margin-top: 18px;
+}
+
+.pinned .pinned-second-paragraph {
+    margin-top: 25px;
+}
+
+.pinned .pinned-thrid-paragraph {
+    margin-top: 22px;
+}
+
+.pinned .pinned-last-paragraph {
+    margin-top: -17px;
+}
+
+.pinned .toolbox {
+    margin-top: 20px;
+    font-size: 30px;
+}
+.pinned .toolbox i + i {
+    margin-left: 30px;  
+}
+
+.pinned .toolbox .right i {
+    color: #000000;
+    opacity: 1;
+}
+
+.others {
+    width: 100%;
+    /* margin-top: 120px; */
+    padding: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 30px;   
+    background-color: #aecbfa;
+}
+
+#others-title {
+    margin-top: 2px;
+    color: var(--color-black);
+    font-size: 22px;
+    letter-spacing: 0;
+}
+
+.others p {
+    line-height: 22px;
+    letter-spacing: 0;
+}
+
+.others .others-second-paragraph {
+    margin-top: 24px;
+}
+
+.others .others-thrid-paragraph {
+    margin-top: 23px;
+}
+
+.others .others-last-paragraph {
+    margin-top: -18px;
+    margin-bottom: 55px;
+}
+
+.others-grey {
+    background-color: #e8eaed;
+}
+
+.others-white {
+    background-color: #ffffff;
+    border: 1px solid #9d9d9d;
+    height: 189px;
+}
+
+hr {
+    margin-top: 102px;
 }

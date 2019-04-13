@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="css/login.css">
-        <title>Login</title>
+        <link rel="stylesheet" href="css/signup-err.css">
+        <title>Sign up - error</title>
     </head>
     <body>
         <div class="main">
@@ -14,26 +14,30 @@
                     <img src="images/logo.svg"/>
                 </div>
                 <div class="form">
-                    <h3 class="form-title">Login</h3>
+                    <h3 class="form-title">Sign up</h3>
                     <form action="">
                         <div class="input-group">
                             <label for="mail">Email</label>
                             <input type="email" name="email" id="mail" placeholder="Email" required/>
                         </div>
                         <div class="input-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Name" required/>
+                        </div>
+                        <div class="input-group">
                             <label for="pass">Password</label>
-                            <input type="password" name="password" id="pass" placeholder="Password" required/> 
+                            <input type="password" name="password" id="pass" placeholder="Set your password" required/> 
                         </div>
-                        <div class="remember-me">
-                            <input type="checkbox" id="remember-me">
-                            <label for="remember-me">Remember me</label>
+                        <div class="input-group">
+                            <label for="pass-conf">Confirm password</label>
+                            <input type="password" name="password-confirm" id="pass-conf" placeholder="Type your password again" required/> 
                         </div>
-                        <input type="submit" class="button purple" name="" value="Sign In"/>
+                        <p class="warning">Email already taken. Please choose another.</p>
+                        <input type="submit" class="button purple" name="" value="Get started"/>
                     </form>
-                    <hr>
-                    <input type="button" class="button black" value="Create account">
                     <div class="footer-link">
-                        <a href="#">Forget you password ?</a>
+                        <p>Already have an account? <a href="#">Sign in</a>
+                        </p>
                     </div>
                 </div>
                 <div class="footer">
@@ -41,5 +45,5 @@
                 </div>
             </div>
         </div>
-</body>
+    </body>
 </html>

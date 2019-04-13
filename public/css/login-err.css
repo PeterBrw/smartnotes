@@ -1,0 +1,9 @@
+p.warning {
+  color: #d0021b;
+  font-size: 16px;
+  text-align: center;
+}
+
+input.button.purple {
+  margin: 0 0 24px 0;
+}

@@ -104,6 +104,7 @@ h1, h2, h3 {
                     --color-button-border: transparent;
                     --color-button-background: var(--color-purple);
                     --color-button-text: var(--color-white);
+                    margin-top: 47px;
                 }
 
                 .button.black {
@@ -111,6 +112,7 @@ h1, h2, h3 {
                     --color-button-background: var(--color-white);
                     --color-button-text: var(--color-black);
                     font-weight: 500;
+                    margin-top: 6px;
                 }
 
             .footer-link {

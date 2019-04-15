@@ -10,6 +10,10 @@ body {
     padding: 31px 0;
 }
 
+    .nav {
+        margin-right: -45px;
+    }
+
     .nav .logout {
         border-radius: var(--radius);
         background-color: var(--color-purple-hover);
@@ -28,7 +32,7 @@ body {
         color: var(--color-white);
         padding: 10px 20px;
         flex: 1 1 auto;
-        margin: 0 30px 0 50px;
+        margin: 0 9px 0 50px; /* 30px */
     }
 
     #search::placeholder {
@@ -38,7 +42,7 @@ body {
     .styled-select {
         border-radius: var(--radius);
         border: 1px solid var(--color-border);
-        margin-right: 15px;
+        margin-right: 9px; /*  15px */
         padding: 10px 20px;
     }
 
@@ -126,6 +130,15 @@ body {
             background-color: var(--color-white);
             font-size: inherit;
             cursor: pointer;
+        }
+
+        .pinned .toolbox {
+            visibility: hidden;
+        }
+
+
+        .pinned:hover .toolbox {
+            visibility: visible;
         }
 
     main h2 {
@@ -237,6 +250,26 @@ body {
         border: 1px solid #9d9d9d;
         height: 189px;
     }
+
+        .others .toolbox {
+            margin-top: -32px;
+        }
+
+        .others.others-grey .toolbox {
+            margin-top: -30px;
+        }
+
+        .others.others-white .toolbox {
+            margin-top: 35px;
+        }
+
+        .others .toolbox {
+            visibility: hidden;
+        }
+
+        .others:hover .toolbox {
+            visibility: visible;
+        }
 
 hr {
     margin-top: 102px;

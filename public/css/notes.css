@@ -32,7 +32,7 @@ body {
         color: var(--color-white);
         padding: 10px 20px;
         flex: 1 1 auto;
-        margin: 0 9px 0 50px; /* 30px */
+        margin: 0 30px 0 50px; /* 30px */
     }
 
     #search::placeholder {
@@ -42,7 +42,7 @@ body {
     .styled-select {
         border-radius: var(--radius);
         border: 1px solid var(--color-border);
-        margin-right: 9px; /*  15px */
+        margin-right: 16px; /*  15px */
         padding: 10px 20px;
     }
 

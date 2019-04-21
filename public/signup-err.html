@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="css/signup-err.css">
+        <link rel="stylesheet" href="css/signup-login.css">
+        <link rel="stylesheet" href="css/error.css">
         <title>Sign up - error</title>
     </head>
     <body>
@@ -32,10 +33,10 @@
                             <label for="pass-conf">Confirm password</label>
                             <input type="password" name="password-confirm" id="pass-conf" placeholder="Type your password again" required/> 
                         </div>
-                        <p class="warning">Email already taken. Please choose another.</p>
-                        <input type="submit" class="button purple" name="" value="Get started"/>
+                        <p id="warning-sign">Email already taken. Please choose another.</p>
+                        <input type="submit" class="button purple" name="" value="Get started" id="purple"/>
                     </form>
-                    <div class="footer-link">
+                    <div class="footer-link"  id="footer-link">
                         <p>Already have an account? <a href="#">Sign in</a>
                         </p>
                     </div>

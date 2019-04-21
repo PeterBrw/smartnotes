@@ -12,7 +12,7 @@ input {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    outline: none; 
+    outline: none; /*padding: 0  do after that*/
 }
 
 body {
@@ -53,6 +53,10 @@ h1, h2, h3 {
             height: 517px;
         }
 
+            #form {
+                height: 497px;
+            }
+
             .form .form-title {
                 font-size: 28px;
             }
@@ -82,70 +86,72 @@ h1, h2, h3 {
                         
                     }
 
-                    .remember-me {
-                        margin: 9px 0;
-                        font-size: 16px;
-                        font-weight: 500;
-                    }
+                .remember-me {
+                    margin-top: 22px;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
 
-                    .warning {
-                        text-align: center;
-                        font-size: 16px;
-                        color: #d0021b;
-                        padding: 0;
-                        margin: 12px 0;;
-                    }
+                .button {
+                    height: 40px;
+                    width: 100%;
+                    border-radius: 3px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    border: 1px solid var(--color-button-border, #000); /* define a var which is not defined yet */
+                    background: var(--color-button-background, #fff);
+                    color: var(--color-button-text, #000);
+                    margin: 24px 0;     
+                }
 
-                    .button {
-                        height: 40px;
-                        width: 100%;
-                        border-radius: 3px;
-                        font-size: 16px;
-                        cursor: pointer;
-                        border: 1px solid var(--color-button-border, #000); /* define a var which is not defined yet */
-                        background: var(--color-button-background, #fff);
-                        color: var(--color-button-text, #000);
-                        margin: 0 0 0 0;    
-                    }
+                #button {
+                    margin-bottom: 0;
+                    margin-top: 40px;
+                }
 
-                    .button.purple {
-                        --color-button-border: transparent;
-                        --color-button-background: var(--color-purple);
-                        --color-button-text: var(--color-white);
-                        font-weight: 500; 
-                    }
-                    
-                    .button.black {
-                        --color-button-border: var(--color-black);
-                        --color-button-background: var(--color-white);
-                        --color-button-text: var(--color-black);
-                        font-weight: 500;
-                    }
+                .button.purple {
+                    --color-button-border: transparent;
+                    --color-button-background: var(--color-purple);
+                    --color-button-text: var(--color-white);
+                    margin-top: 42px;
+                }
+
+                .button.black {
+                    --color-button-border: var(--color-black);
+                    --color-button-background: var(--color-white);
+                    --color-button-text: var(--color-black);
+                    font-weight: 500;
+                    margin-top: 6px;
+                }
 
             .footer-link {
                 text-align: center;
                 font-weight: 500;
                 font-size: 16px;
             }
-            
+
+            #footer-link {
+                margin-top: -5px;
+            }
+
                 .footer-link a {
                     font-size: 16px;
                     text-decoration: none;
                     color: var(--color-purple);
                 }
-                                
+
         .footer {
-            text-align: center;  
+            text-align: center;
         }
 
             .footer p {
-                font-size: 16px;
+            font-size: 16px;
             }
 
                 .footer span {
-                    color: var(--color-brown-grey);
+                color: var(--color-brown-grey);
                 }
-
+    
                 .footer a {
                     text-decoration: none;
                     line-height: 22px;
@@ -168,3 +174,11 @@ h1, h2, h3 {
         display: block; 
     }
 }
+
+#warning {
+    color: #d0021b;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+}
+

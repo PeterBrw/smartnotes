@@ -130,6 +130,11 @@ body {
             background-color: var(--color-white);
             font-size: inherit;
             cursor: pointer;
+            opacity: .6;
+        }
+
+        .toolbox #submit:hover {
+            opacity: 1;
         }
 
         .pinned .toolbox {

@@ -1,0 +1,4 @@
+exports.between = () => `
+    </head>
+    <body>
+`;

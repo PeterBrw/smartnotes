@@ -1,22 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
+const getHomePage = (begin, between, header, footer, end) => `
+${begin}
         <link rel="stylesheet" href="./css/index.css" type="text/css" />
-    </head>
-    <body>
-        <div id="header">
-            <div class="content">
-                <div class="logo">
-                    <a href="/" title="Welcome">
-                        <img src="images/logo.svg"/>
-                    </a>
-                </div>
-                <div class="nav">
-                    <a href="/login.html" title="Login">Login</a>
-                    <a href="/signup.html" title="Sign Up">Sign Up</a>
-                </div>
-            </div>
-        </div> 
+    ${between}
+        ${header}
         <div id="main">
             <div class="section-jumbotron">
                 <div class="content">
@@ -38,7 +24,7 @@
                                     Quis autem vel eum iure reprehenderit quvol uptate lipsum <br> naim dolor emet.
                                 </li>
                             </ul>
-                            <a href="#">Get started</a>
+                            <a href="/login">Get started</a>
                         </div>
                         <div class="mobile-friendly">
                             <img src="images/header-img.png" alt="mobile">
@@ -75,15 +61,7 @@
             </div>
         </div>
         <hr>
-        <div id="footer">
-            <div class="content">
-                <div class="footer-flex">
-                    <img src="images/smart-notes-logotype-color.svg">
-                    <div class="footer-copyright">
-                        <p>&copy; 2019 SmartNotes Technologies <span>|</span> <a href="#">Security</a> <span>|</span> <a href="#">Your Privacy</a> <span>|</span> <a href="#">Terms</a><br>SmartNotes was created using SmartNotes</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+       ${footer}
+   ${end}`;
+
+module.exports = getHomePage;

@@ -13,6 +13,4 @@ app.use(notesRoutes);
 
 app.use('*', notFoundPage);
 
-
-
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
